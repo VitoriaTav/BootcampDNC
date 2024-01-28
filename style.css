@@ -1,0 +1,176 @@
+*{
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration-line: none;
+}
+
+.but:hover {
+    transform: translateY(-3px);
+    transition-duration: 0,8s;
+}
+
+
+/* Main Menu- Part 1*/ 
+
+#MainMenu{
+    background-color: black;
+    padding-left:  25px;
+    border-bottom: 1px #BABABA;
+}
+
+#principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    width: 45%;
+    justify-content: space-around;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+nav button {
+    margin-right: 42px;
+    padding: 3px 3px 3px 3px;
+    background-color:  #0C70F2;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    border: none;
+    box-shadow: 3px 2px 4px 0px #0C70F240;
+    cursor: pointer;
+
+}
+
+#principal div a:hover{
+    color: #CCCCCC;
+}
+
+/* Introduction - Part 2*/ 
+
+#Introduction{
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 28.91%, rgba(12, 112, 242, 0) 39.84%),
+    linear-gradient(0deg, #303030, #303030),
+    linear-gradient(0deg, #BABABA, #BABABA);
+    display: flex;
+    flex-direction: column;
+    padding: 0 auto;
+}
+
+#titlel2{
+    font-size: 50px;
+    font-weight: 900;
+    padding-top: 50px;
+    padding-bottom: 8px;
+    line-height: 90px;
+    text-align: center
+}
+
+#textl2 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 100px;
+    text-align: center
+}
+
+.highlight{
+    background-color: black;
+    font-weight: 600;
+    padding: 3px;
+}
+
+.Enviar:hover {
+    transform: translateY(-3px);
+    transition-duration: 0,8s;
+    cursor: pointer;
+}
+
+/* Form - Part 3*/ 
+
+#form1{
+    font-size: 18px;
+    font-weight: 500;
+    width: 30%;  
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+input {
+    width: 300px;
+    height: 32px;
+    border-radius: 7px;
+    padding-left: 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: none;
+}
+
+.checkbox-itens {
+    width: 15px;
+    font-size: 13px;
+    margin-bottom: auto
+}
+
+.checkbox-itens1 {
+    font-size: 13px;
+    margin-bottom: 16px;
+    margin-top: auto;
+}
+
+
+#lastInput {
+    margin-bottom: 40px;
+}
+
+#LoginForm {
+    background-color: #0C70F2;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin-bottom: 140px;
+}
+
+#chckbx {
+    display: flex;
+    justify-content: space-around;
+    height: 45px;
+}
+
+
+/* Footer - Part 4*/ 
+
+#Footer {
+    background-color: #0C70F2;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 35px;
+}
+
+#Columns {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-bottom: 20px;
+}
+
+.highlight2 {
+    background-color: #303030;
+    padding: 4px 6px 4px 6px;
+    border-radius: 6px;
+}
+
+#Info {
+    line-height: 15px;
+    font-size: 11px;
+    margin-top: 75px;
+}
